@@ -81,3 +81,24 @@
 .card__type-1::before{
     background-image: url(./img/_bf7e58c8-6a4c-444a-ad78-329cccdf8a56\ 1.png);
 }
+
+@media (max-width: 650px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* start  section Article*/
+.text-titel{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    height: 80px;
+}
